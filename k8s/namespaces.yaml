@@ -1,0 +1,11 @@
+#! Blue Deployment Strategy Namespace
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: nps-blue
+---
+#! Green Deployment Strategy Namespace
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: nps-green
